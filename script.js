@@ -13,7 +13,7 @@ print("বয়স:", age)
 print("উচ্চতা:", height)
 print("পাস:", passed)`,
 
-  list: `# লিস্ট (অ্যারে) Tupple, Dictionary, Object
+  list: `# লিস্ট (অ্যারে) 
 fruits = ["আম", "কলা", "লিচু", "জাম", "পেয়ারা"]
 marks = [90, 85, 92, 78, 95]
 
