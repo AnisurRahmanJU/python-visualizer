@@ -38,8 +38,7 @@ def add(a, b):
     return result
 
 def greet(name):
-    message = "হ্যালো " + name + "!"
-    return message
+    return name
 
 x = add(5, 3)
 msg = greet("তানভীর")
