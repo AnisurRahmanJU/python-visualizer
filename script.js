@@ -20,6 +20,7 @@ marks = [90, 85, 92, 78, 95]
 print("প্রথম ফল:", fruits[0])
 print("শেষ নম্বর:", marks[4])
 print("মোট নম্বর:", sum(marks))`,
+# Tupple-Dictionary-Object not supported
 
   dict: `# ডিকশনারি
 student = {
@@ -95,7 +96,7 @@ print("গ্রেড:", grade)
 taka = 500
 day ="Friday"
 
-if (taka == 500) and (day == "Friday"):
+if (taka == 500) and (day == "Friday"): # this syntax supported
     print("টাকা দান করো।")
 else:
     print("টাকা দান করতে হবে না।")`,
