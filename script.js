@@ -66,7 +66,11 @@ for n in numbers:
     total = total + n
     print("যোগ হচ্ছে:", n, "→ মোট:", total)
 
-print("চূড়ান্ত যোগফল:", total)`,
+print("চূড়ান্ত যোগফল:", total)
+
+i = 1
+for i in range(2, 10, 2):
+    print(i)`,
 
   while: `# while লুপ
 count = 1
