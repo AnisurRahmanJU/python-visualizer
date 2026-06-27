@@ -43,7 +43,18 @@ def greet(name):
 x = add(5, 3)
 msg = greet("তানভীর")
 print("যোগফল:", x)
-print(msg)`,
+print(msg)
+
+# Here Recursive Call not Supported
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result = result * i
+    return result
+
+num = 5
+output = factorial(num)
+print("ফ্যাক্টরিয়াল:", output)`,
 
   for: `# for লুপ
 numbers = [1, 2, 3, 4, 5]
