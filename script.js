@@ -80,7 +80,15 @@ else:
     grade = "C"
     print("আরো পড়তে হবে!")
 
-print("গ্রেড:", grade)`,
+print("গ্রেড:", grade)
+
+taka = 500
+day ="Friday"
+
+if (taka == 500) and (day == "Friday"):
+    print("টাকা দান করো।")
+else:
+    print("টাকা দান করতে হবে না।")`,
 
   cls: `# ক্লাস
 class Student:
